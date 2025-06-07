@@ -1,7 +1,5 @@
 import random
 
-
-pc = random .randint(1,3)
 score1 = 0
 score2 = 0
 
@@ -9,6 +7,7 @@ score2 = 0
 name = input("to onoma sou ")
 
 for i in range(3):
+    pc = random.randint(1, 3)
     if pc == 1:
         pc = "r"
     elif pc == 2:
